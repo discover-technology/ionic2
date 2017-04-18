@@ -8,7 +8,10 @@ Para instalar o cordova, abra um cmd e digite:
 npm install –g cordova.
 ```
 
-Você pode confirmar a instalação acessando um cmd e digitando cordova –v. Irá aparecer a versão do node instalada.
+Você pode confirmar a instalação acessando um cmd e digitando 
+```cordova –v
+```
+Irá aparecer a versão do node instalada.
 ## Instalação Ionic
 Para instalar o Ionic, volte ao cmd e digite: 
 ```

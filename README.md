@@ -1,7 +1,10 @@
 # Configuração do Ambiente
 ## Instalação Node.js
 Para instalar o node, você pode acessar  http://nodejs.org e baixar o instalador para sua plataforma.
-Você pode confirmar a instalação acessando um cmd e digitando node –v. Irá aparecer a versão do node instalada.
+Você pode confirmar a instalação digitando em um cmd 
+```node –v
+```
+Irá aparecer a versão do node instalada.
 ## Instalação Apache Cordova
 Para instalar o cordova, abra um cmd e digite: 
 ```
@@ -12,13 +15,17 @@ Você pode confirmar a instalação acessando um cmd e digitando
 ```
 cordova –v
 ```
-Irá aparecer a versão do node instalada.
+Irá aparecer a versão do cordova instalada.
 ## Instalação Ionic
 Para instalar o Ionic, volte ao cmd e digite: 
 ```
 npm install –g ionic.
 ```
-Você pode confirmar a instalação acessando um cmd e digitando ionic –v. Irá aparecer a versão do node instalada.
+Você pode confirmar a instalação acessando um cmd e digitando 
+```
+ionic –v
+```
+Irá aparecer a versão do ionic instalada.
 # Estrutura do Projeto
 - src -- Este diretórios terá o código da aplicação atual que será desenvolvida.
 - hooks -- Esse diretório contem scripts que serão utilizados pelo Cordova durante o processo de building.

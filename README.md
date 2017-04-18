@@ -10,7 +10,10 @@ npm install –g cordova.
 
 Você pode confirmar a instalação acessando um cmd e digitando cordova –v. Irá aparecer a versão do node instalada.
 ## Instalação Ionic
-Para instalar o Ionic, volte ao cmd e digite: npm install –g ionic.
+Para instalar o Ionic, volte ao cmd e digite: 
+```
+npm install –g ionic.
+```
 Você pode confirmar a instalação acessando um cmd e digitando ionic –v. Irá aparecer a versão do node instalada.
 # Estrutura do Projeto
 - src -- Este diretórios terá o código da aplicação atual que será desenvolvida.

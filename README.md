@@ -7,7 +7,7 @@ node –v
 ```
 Irá aparecer a versão do node instalada.
 ## Instalação Apache Cordova
-Para instalar o cordova, abra um cmd e digite: 
+Para instalar o cordova, volte ao cmd e digite: 
 ```
 npm install –g cordova.
 ```

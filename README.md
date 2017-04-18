@@ -9,7 +9,8 @@ npm install –g cordova.
 ```
 
 Você pode confirmar a instalação acessando um cmd e digitando 
-```cordova –v
+```
+cordova –v
 ```
 Irá aparecer a versão do node instalada.
 ## Instalação Ionic
@@ -28,6 +29,12 @@ Você pode confirmar a instalação acessando um cmd e digitando ionic –v. Ir�
 # Rodando o Projeto Base
 Faça download do projeto base e armazene em um diretório de fácil acesso.
 Abra o cmd e execute o comando “cd” para navegar até o caminho em que salvou o projeto. 
-Ex: cd C:\Users\meu.usuario\Documents\ionic\BaseProject
-Estando na pasta do projeto, basta rodar o comando “ionic serve”: ele fará sua aplicação rodar no browser.
+```
+cd C:\Users\meu.usuario\Documents\ionic\BaseProject
+```
+Estando na pasta do projeto, basta rodar o comando 
+```
+ionic serve
+```
+ele fará sua aplicação rodar no browser.
 

@@ -4,9 +4,9 @@ Para instalar o node, você pode acessar  http://nodejs.org e baixar o instalado
 Você pode confirmar a instalação acessando um cmd e digitando node –v. Irá aparecer a versão do node instalada.
 ## Instalação Apache Cordova
 Para instalar o cordova, abra um cmd e digite: 
-'''
+```
 npm install –g cordova.
-'''
+```
 
 Você pode confirmar a instalação acessando um cmd e digitando cordova –v. Irá aparecer a versão do node instalada.
 ## Instalação Ionic

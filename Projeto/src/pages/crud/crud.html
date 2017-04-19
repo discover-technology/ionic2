@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Crud</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form [formGroup]="phoneBookForm" (ngSubmit)="insert($event)">
+    <ion-item>
+      <ion-label fixed>Nome</ion-label>
+      <ion-input formControlName="name" id="name" type="text" value=""></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label fixed>Telefone</ion-label>
+      <ion-input [textMask]="{mask: mask}" formControlName="phone" id="phone" type="text" value=""></ion-input>
+    </ion-item>
+    <button ion-button type="submit" block>Adicionar</button>
+  </form>
+  
+   <ion-item-sliding *ngFor="let todo of todos">
+ 
+      <ion-item>
+ 
+        {{todo.name}} - {{todo.phone}}
+ 
+      </ion-item>
+   </ion-item-sliding>
+</ion-content>

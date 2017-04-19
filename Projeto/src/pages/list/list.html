@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Lista</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<!-- EXEMPLO PARA CRIAÇÃO DE UMA LISTA -->
+<!-- O items É UM ARRAY QUE DEVE ESTAR NO .ts -->
+<ion-content>
+  <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+      {{ item }}
+    </button>
+  </ion-list>
+</ion-content>

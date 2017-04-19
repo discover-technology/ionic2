@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Checkbox's</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-list>
+  <!-- EXEMPLO PARA CRIAÇÃO DE CHECKBOX -->
+  <ion-item>
+    <ion-label>Pepperoni</ion-label>
+    <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
+  </ion-item>
+  <!-- EXEMPLO PARA CRIAÇÃO DE CHECKBOX DESABILITADA -->
+  <ion-item>
+    <ion-label>Sausage</ion-label>
+    <ion-checkbox [(ngModel)]="sausage" disabled="true"></ion-checkbox>
+  </ion-item>
+</ion-list>
+</ion-content>

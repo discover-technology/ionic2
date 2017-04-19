@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Cartões</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+
+<!-- PARA INSERIR UM CARD COM CABEÇALHO -->
+<ion-card>
+  <ion-card-header>
+    Exemplo com Cabeçalho
+  </ion-card-header>
+  <ion-card-content>
+    Esse é um exemplo que demonstra a utilização de um card COM cabeçalho.
+  </ion-card-content>
+</ion-card>
+
+<!-- PARA INSERIR UM CARD SEM CABEÇALHO -->
+<ion-card>
+  <ion-card-content>
+    Esse é um exemplo que demonstra a utilização de um card SEM cabeçalho.
+  </ion-card-content>
+</ion-card>
+
+<!-- PARA INSERIR UM CARD COM UMA LISTA DENTRO -->
+<ion-card>
+  <ion-card-header>
+    Listas nos Cartões
+  </ion-card-header>
+  <ion-list>
+    <button ion-item>
+      <ion-icon name="cart" item-left></ion-icon>
+      Shopping
+    </button>
+    <button ion-item>
+      <ion-icon name="medical" item-left></ion-icon>
+      Hospital
+    </button>
+    <button ion-item>
+      <ion-icon name="cafe" item-left></ion-icon>
+      Cafe
+    </button>
+    <button ion-item>
+      <ion-icon name="paw" item-left></ion-icon>
+      Dog Park
+    </button>
+    <button ion-item>
+      <ion-icon name="beer" item-left></ion-icon>
+      Pub
+    </button>
+    <button ion-item>
+      <ion-icon name="planet" item-left></ion-icon>
+      Space
+    </button>
+  </ion-list>
+</ion-card>
+
+<!-- PARA INSERIR UM CARD COM IMAGEM E TEXTO -->
+<ion-card>
+  <img src="./assets/img/rock.jpg"/>
+  <ion-card-content>
+    <ion-card-title>
+      Nine Inch Nails Live
+      </ion-card-title>
+      <p>
+        The most popular industrial group ever, and largely
+        responsible for bringing the music to a mass audience.
+      </p>
+  </ion-card-content>
+</ion-card>
+
+<!-- PARA INSERIR UM CARD APENAS COM IMAGEM (utilizando uma classe css) -->
+  <ion-card>
+    <img src="./assets/img/rock.jpg"/>
+  </ion-card>
+  
+</ion-content>

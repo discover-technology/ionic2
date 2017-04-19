@@ -44,5 +44,5 @@ Estando na pasta do projeto, basta rodar o comando
 ```
 ionic serve
 ```
-ele fará sua aplicação rodar no browser..
+ele fará sua aplicação rodar no browser.
 

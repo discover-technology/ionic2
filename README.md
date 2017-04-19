@@ -1,6 +1,6 @@
 # Configuração do Ambiente
 ## Instalação Node.js
-Para instalar o node, você pode acessar  http://nodejs.org e baixar o instalador para sua plataforma.
+Para instalar o node, você pode acessar  http://nodejs.org e baixar o instalador para sua plataforma. A instalação é praticamente um next, next e finish.
 Você pode confirmar a instalação digitando em um cmd:
 ```
 node –v
